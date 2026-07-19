@@ -1,6 +1,6 @@
 from expense import Expense,ExpenseTracker,InvalidExpenseError
 from storage import save_expenses,load_expenses
-FILENAME="expensess.json"
+FILENAME="expenses.json"
 try:
     tracker=load_expenses(FILENAME)
     print("Existing expenses loaded")
